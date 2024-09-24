@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.wishlistapp"
-        minSdk = 24
+        minSdk = 25
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -54,6 +54,7 @@ android {
 dependencies {
     implementation(libs.androidx.navigation.runtime.ktx)
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.compose.material)
     val nav_version = "2.7.5"
     val compose_version = "1.6.0-alphao8"
     val room = "2.6.0"
